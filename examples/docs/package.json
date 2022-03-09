@@ -1,0 +1,19 @@
+{
+  "name": "presentable-example-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "serve": "live-server ./src --port=11599",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haydn Comley",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
